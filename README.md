@@ -69,3 +69,8 @@ The [homebrew pmd formula](https://formulae.brew.sh/formula/pmd) makes the `pmd`
 ```sh
 pmd cpd --minimum-tokens 50 --files src
 ```
+
+## References
+
+- [Gradle Build Init Plugin](https://docs.gradle.org/current/userguide/build_init_plugin.html) - This project has been created using `gradle init --type java-application`.
+- 
