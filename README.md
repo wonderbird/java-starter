@@ -7,13 +7,32 @@ This repository provides a starter template for new Java projects.
 Many thanks to [JetBrains](https://www.jetbrains.com/?from=dotnet-starter) who provide
 an [Open Source License](https://www.jetbrains.com/community/opensource/) for this project ❤️.
 
+## Development
+
+### What is Inside?
+
+This project provides a simple gradle based Java project template. The sources are kept in the `app/src` folder.
+
+### Creating a New Project From this Template
+
+After having forked this starter project, you'll need to adapt the project names in the configuration files and some
+text files:
+
+1. Change the LICENSE to your needs
+
+2. Renaming from `javastarter` to ...
+  - rename the package directory `javastarter` to your desired package name
+  - adapt the package of the main class in `app/build.gradle`
+  - change the root project name in `settings.gradle`
+  - rename the classes `App` and `AppTest` to your desired class names
+
+## Build, Test, Run
+
 ### Prerequisites
 
 To compile, test and run this project java 17 is required on your machine. For calculating code
 metrics I recommend [metrix++](https://github.com/metrixplusplus/metrixplusplus). This requires
 python.
-
-## Build, Test, Run
 
 ### Build the Solution and Run the Tests
 
@@ -73,4 +92,3 @@ pmd cpd --minimum-tokens 50 --files src
 ## References
 
 - [Gradle Build Init Plugin](https://docs.gradle.org/current/userguide/build_init_plugin.html) - This project has been created using `gradle init --type java-application`.
-- 
